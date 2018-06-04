@@ -13,14 +13,27 @@
        <div class="row">
            <div class="col-md-12">
                <div class="jumbotron">
-                   <h1 class="display-3">Psychic Game</h1>
-                   <p class="lead">Can you guess the word I'm thinking of?</p>
-                   <h1>Wins: <span id="winCount">0</span></h1>
-                   <h1>Losses: <span id="lossCount">0</span></h1>
-                   <h1>Guesses Left: <span id="guessLeft">10</span></h1>
-                   <h1 class="winorlose"></h1>
-                   <p>Your Guesses So Far: <span id="lettersWrong"> Nada </span></P>
+                   <div class="title">
+                    <h1 class="display-3">Psychic Game</h1>
+                    <p class="lead">Can you guess the letter I'm thinking of?</p>
+                    </div>
+                        <div class="row">
+                            <div class="col-md-6 stats">
+                                <h1>Wins: <span id="winCount">0</span></h1>
+                                <h1>Losses: <span id="lossCount">0</span></h1>
+                                <h1>Guesses Left: <span id="guessLeft">10</span></h1>
+                            </div>
+                            <div class="col-md-6 guess">
+                                <p>Your Guesses So Far: <div id="lettersWrong"> Nada </div></p>
+                            </div>
+                        </div>
                </div>
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                        <h1 class="winorlose"></h1>
+                </div>
+            </div>
+               
            </div>
        </div>
    </div>

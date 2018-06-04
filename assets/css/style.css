@@ -1,0 +1,50 @@
+
+body {
+    background-color: #153740;
+}
+
+.jumbotron {
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #3EA6BF;
+    color: white;
+}
+
+.title {
+    background-color:  #296E7F;
+    text-align: center;
+    border-top: 1px solid #153740;
+    border-bottom: 1px solid #153740;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.win , .loss{
+    background-color: #3EA6BF;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.loss {
+    color:#CC1D0E;
+}
+
+.win {
+    color: #4FD63B;
+}
+
+#lettersWrong {
+    color: #CC1D0E;
+    margin-left: 20px;
+}
+
+.stats {
+    text-align: center;
+}
+
+.guess p{
+    margin-left: 20px;
+}
